@@ -167,6 +167,7 @@ a#servicios:active img {
     transform: translateX(-50%); /* Centramos los dots horizontalmente */
     border-radius: 5px;
     margin-top: 20px;
+    margin-bottom: 60px;
   }
   
   .dot-nav {
