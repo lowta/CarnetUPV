@@ -64,74 +64,69 @@ a#servicios:focus img,
 a#servicios:active img {
   background-color: #df4e54;
 }
+.footer {
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en líneas nuevas si es necesario */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
 
-/* Media query para pantallas móviles */
-@media (max-width: 320px) {
-    .footer {
-        flex-wrap: wrap; /* Permite que los elementos se envuelvan en líneas nuevas si es necesario */
-        justify-content: center; /* Centra los elementos horizontalmente */
-    }
+#calendario img{
+    width: 40px;
+    background-color: #afafaf;
+}
 
-    #calendario img{
-        width: 40px;
-        background-color: #afafaf;
-    }
+#carnet img{
+    margin-bottom: 5.7px;
+    width: 34px;
+    background-color: #afafaf;
+}
 
-    #carnet img{
-        margin-bottom: 5.7px;
-        width: 34px;
-        background-color: #afafaf;
-    }
+#servicios img{
+    margin-bottom: 1.5px;
+    width: 30px;
+    background-color: #afafaf;
+}
 
-    #servicios img{
-        margin-bottom: 1.5px;
-        width: 30px;
-        background-color: #afafaf;
-    }
-
-    #avisos svg{
-        margin-top: 4.5px;
-        margin-bottom: 5px;
-        width: 23px; /* Ancho del icono de avisos */
-        height: 23px; /* Alto del icono de avisos */
-    }  
+#avisos svg{
+    margin-top: 4.5px;
+    margin-bottom: 5px;
+    width: 23px; /* Ancho del icono de avisos */
+    height: 23px; /* Alto del icono de avisos */
+}  
 
 .intranet{
-    display: flex;
+display: flex;
 }
 
 .buscador{
-    display: flex;
+display: flex;
 }
 
 .correo{
-    display: flex;
+display: flex;
 }
 
 .poliforma{
-    display: flex;
+display: flex;
 }
 
 .services-container img{
-    width: 20px;
-    height: 16px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 28px;
-    align-self: center;
+width: 20px;
+height: 16px;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 28px;
+align-self: center;
 }
 
 .services-container{
-    margin-top: 20px;
+margin-top: 20px;
 }
 
 .intranet p,
 .buscador p,
 .correo p,
 .poliforma p{
-    font-weight: 500;
-    margin: auto 0;
-    margin-bottom: 28px;
-}
-
+font-weight: 500;
+margin: auto 0;
+margin-bottom: 28px;
 }

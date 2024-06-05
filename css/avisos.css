@@ -7,6 +7,7 @@ body {
     display: flex;
     align-items: center;
     padding: 10px;
+    justify-content: space-between;
     background-color: #fff;
     color: #fff;
     margin-top: 10px;
@@ -16,6 +17,11 @@ body {
     color: black;
     font-weight: 650;
     font-size: 20px;
+    margin-right: 190px;
+}
+
+#exepcion{
+    margin-right: 0px;
 }
 
 .footer {
@@ -65,91 +71,93 @@ a#servicios:active img {
   background-color: #df4e54;
 }
 
-/* Media query para pantallas móviles */
-@media (max-width: 320px) {
-    .footer {
-        flex-wrap: wrap; /* Permite que los elementos se envuelvan en líneas nuevas si es necesario */
-        justify-content: center; /* Centra los elementos horizontalmente */
-    }
+.footer {
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en líneas nuevas si es necesario */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
 
-    #calendario img{
-        width: 40px;
-        background-color: #afafaf;
-    }
+#calendario img{
+    width: 40px;
+    background-color: #afafaf;
+}
 
-    #carnet img{
-        margin-bottom: 5.7px;
-        width: 34px;
-        background-color: #afafaf;
-    }
+#carnet img{
+    margin-bottom: 5.7px;
+    width: 34px;
+    background-color: #afafaf;
+}
 
-    #servicios img{
-        margin-bottom: 1.5px;
-        width: 30px;
-        background-color: #afafaf;
-    }
+#servicios img{
+    margin-bottom: 1.5px;
+    width: 30px;
+    background-color: #afafaf;
+}
 
-    #avisos svg{
-        margin-top: 4.5px;
-        margin-bottom: 5px;
-        width: 23px; /* Ancho del icono de avisos */
-        height: 23px; /* Alto del icono de avisos */
-    }  
+#avisos svg{
+    margin-top: 4.5px;
+    margin-bottom: 5px;
+    width: 23px; /* Ancho del icono de avisos */
+    height: 23px; /* Alto del icono de avisos */
+}  
 
-    .imgservicios{
-        width: 37%;
-        display: block;
-        margin: 0 auto;
-        margin-left: 96px;
-    }
+.imgservicios{
+    width: 37%;
+    display: block;
+    margin: 0 auto;
+    margin-left: 96px;
+}
 
-    .filtro{
-        margin-left: 130px;
-    }
+.filtro{
+    display: flex;
+    justify-content: end;
+}
 
-    .nota {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 5px;
-    }
-    
-    .imagen {
-        width: 90px;
-    }
-    
-    .imagen img {
-        width: 95px;
-    }
-    
-    .contenido {
-        flex: 1;
-    }
+.headavisos{
+    display: flex;
+}
 
-    .titulo{
-        text-align: left;
-        font-size: 15px;
-        margin-bottom: 5px;
-    }
+.nota {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
 
-    .subtitulo{
-        text-align: left;
-        font-size: 13px;
-        font-weight: 190;
-        margin-bottom: 5px;
-    }
+.imagen {
+    width: 90px;
+}
 
-    .subtitulo2{
-        font-size: 10px;
-        text-align: left;
-        font-weight: 190;
-    }
+.imagen img {
+    width: 95px;
+}
 
-    .flecha{
-        width: 35px;
-    }
+.contenido {
+    flex: 1;
+}
 
-    .divflecha{
-        background-color: transparent;
-    }
+.titulo{
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.subtitulo{
+    text-align: left;
+    font-size: 13px;
+    font-weight: 190;
+    margin-bottom: 5px;
+}
+
+.subtitulo2{
+    font-size: 10px;
+    text-align: left;
+    font-weight: 190;
+}
+
+.flecha{
+    width: 35px;
+}
+
+.divflecha{
+    background-color: transparent;
 }

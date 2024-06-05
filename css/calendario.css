@@ -86,50 +86,46 @@ a#servicios:active img {
   background-color: #df4e54;
 }
 
-/* Media query para pantallas móviles */
-@media (max-width: 320px) {
+.footer {
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-  .footer {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+#calendario img {
+  width: 40px;
+  background-color: #afafaf;
+}
 
-  #calendario img {
-    width: 40px;
-    background-color: #afafaf;
-  }
+#carnet img {
+  margin-bottom: 5.7px;
+  width: 34px;
+  background-color: #afafaf;
+}
 
-  #carnet img {
-    margin-bottom: 5.7px;
-    width: 34px;
-    background-color: #afafaf;
-  }
+#servicios img {
+  margin-bottom: 1.5px;
+  width: 30px;
+  background-color: #afafaf;
+}
 
-  #servicios img {
-    margin-bottom: 1.5px;
-    width: 30px;
-    background-color: #afafaf;
-  }
+#avisos svg {
+  margin-top: 4.5px;
+  margin-bottom: 5px;
+  width: 23px;
+  height: 23px;
+}
 
-  #avisos svg {
-    margin-top: 4.5px;
-    margin-bottom: 5px;
-    width: 23px;
-    height: 23px;
-  }
+.imgservicios {
+  width: 37%;
+  display: block;
+  margin: 0 auto;
+  margin-left: 96px;
+}
 
-  .imgservicios {
-    width: 37%;
-    display: block;
-    margin: 0 auto;
-    margin-left: 96px;
-  }
-
-  .header {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    background-color: #fff;
-    color: #fff;
-  }
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  color: #fff;
 }
