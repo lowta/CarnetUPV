@@ -2,7 +2,7 @@ body {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
-    height: 200px;
+    height: 2000px;
 }
 .header {
     display: flex;
@@ -130,7 +130,7 @@ a#servicios:active img {
   }
 
   .slider-container {
-    height: 100%;
+    height: 800px;
     width: 200px;
     position: relative;
     overflow: hidden;
@@ -139,7 +139,7 @@ a#servicios:active img {
     }
   
   .slide {
-    height: 80%;
+    height: 100%;
     width: 100%;
     display: grid;
     justify-items: center; /* Centrar horizontalmente */
@@ -167,7 +167,6 @@ a#servicios:active img {
     transform: translateX(-50%); /* Centramos los dots horizontalmente */
     border-radius: 5px;
     margin-top: 20px;
-    margin-bottom: 60px;
   }
   
   .dot-nav {
@@ -198,8 +197,4 @@ animation-duration: .5s;
 @keyframes fade{
 from {opacity: .4}
 to { opacity: 1}
-}
-
-.relleno{
-  height: 1000px;
 }
